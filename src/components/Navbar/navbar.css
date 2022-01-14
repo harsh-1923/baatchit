@@ -1,0 +1,32 @@
+.navbar-wrapper{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+
+.logo-text{
+  color: #FF7597;
+}
+
+.btn-logout{
+  width: 80px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  background-color: #FF7597;
+  cursor: pointer;
+}
+
+
+.navlink-wrapper{
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+}

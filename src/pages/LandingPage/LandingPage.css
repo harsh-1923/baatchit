@@ -1,0 +1,19 @@
+.landing-page-wrapper{
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vh;
+}
+
+.navlink-wrapper{
+  width: 200px;
+  cursor: pointer;
+}
+
+.links{
+  padding-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

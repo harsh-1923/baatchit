@@ -1,0 +1,23 @@
+.message-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.message-text{
+  min-height: 30px;
+  max-width: 600px;
+  /* display: flex; */
+  align-items: right;
+  justify-content: center;
+  min-width: 90px;
+  padding: 10px;
+}
+
+
+.message-time{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+

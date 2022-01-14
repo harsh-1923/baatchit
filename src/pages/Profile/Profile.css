@@ -1,0 +1,41 @@
+.profile-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 60px)
+}
+
+.avatar-wrapper img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.user-detail-wrapper{
+  margin-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.user-detail-wrapper p,h2, small{
+  color: white;
+  margin: 10px 0px;
+}
+
+.overlay{
+  transition: 0.5s ease-in-out all;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: translate(-50%, -60%);
+  text-align: center;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
